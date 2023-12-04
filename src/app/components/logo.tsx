@@ -1,5 +1,6 @@
 // src/app/components/Logos.tsx
 import React from 'react';
+import Image from 'next/image';
 
 const logos = [
   'html-5.svg',
@@ -28,12 +29,14 @@ const Logos: React.FC = () => {
   return (
     <div className="grid grid-cols-4 gap-4 gap-x-0.5 justify-items-center">
       {logos.map((logo, index) => (
-        <img
-          key={index}
-          src={`/logos/${logo}`}
-          alt={logo.replace('.svg', '')}
-          className="sm:w-20 sm:h-20  w-14 h-14 "
-        />
+        <div key={index} className="sm:w-20 sm:h-20 w-14 h-14 flex items-center justify-center m-1">
+          <Image
+            src={`/logos/${logo}`}
+            alt={logo.replace('.svg', '')}
+            width={80}
+            height={80}
+          />
+        </div>
       ))}
     </div>
   );

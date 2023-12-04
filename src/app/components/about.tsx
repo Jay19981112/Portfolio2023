@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function About() {
@@ -10,7 +11,13 @@ function About() {
         </h2>
       </div>
       <div className='flex flex-col sm:flex-row items-center justify-center'>
-        <img src="/profileImg.JPG" alt="My Image" className='w-52 h-52  sm:w-80 sm:h-80 object-cover rounded-full sm:rounded-2xl sm:mr-4' />
+      <Image
+        src='/profileImg.JPG'
+        alt='My Image'
+        width={80}  // 画像の横幅
+        height={80} // 画像の縦幅
+        className='w-52 h-52 sm:w-80 sm:h-80 object-cover rounded-full sm:rounded-2xl sm:mr-4'
+      />
         <div className='flex flex-col items-center w-2/3 sm:w-3/4 lg:w-2/3 xl:w-1/2'>
           <div className='flex flex-col sm:flex-row w-full sm:space-x-4 mt-4'>
             <div className='bg-slate-300 rounded-2xl flex-1 p-4 mt-4 sm:mt-0'>

@@ -20,7 +20,7 @@ function Main() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1}}
             >
-                <h1 className='text-4xl sm:text-8xl border-b-2 border-black pb-2 inline-block'>
+                <h1 className='text-4xl sm:text-8xl border-b-2 border-white pb-2 inline-block'>
                    Welcome!
                 </h1>
                 <div>
