@@ -33,7 +33,7 @@ function About() {
             <div className=''>
               <p className='text-left p-1 leading-relaxed'>
               Jei Fujinami,  from Japan. <br/>
-              <span className='text-xl'>2022</span> - I graduated from university with a bachelor's degree in Asian Studies from the Faculty of 21st Century Asia Studies. <br/>
+              <span className='text-xl'>&apos;2022&apos;</span> - I graduated from university with a bachelor&apos;s degree in Asian Studies from the Faculty of 21st Century Asia Studies. <br/>
               <span className='text-xl'>2022</span> - I spent one year at Cuebus engaged in graphic design, CG design, video production, and software development. <br/>
               <span className='text-xl'>2023</span> - I worked as an assistant in video production for a friend in Poland while visiting various European countries.
               </p>
